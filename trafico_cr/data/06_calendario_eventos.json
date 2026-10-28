@@ -1,0 +1,422 @@
+{
+ "feriados": [
+  {
+   "nombre": "Año Nuevo",
+   "mes": 1,
+   "dia": 1,
+   "factor_volumen": 0.8
+  },
+  {
+   "nombre": "Juan Santamaría",
+   "mes": 4,
+   "dia": 11,
+   "factor_volumen": 0.85
+  },
+  {
+   "nombre": "Día del Trabajador",
+   "mes": 5,
+   "dia": 1,
+   "factor_volumen": 0.8
+  },
+  {
+   "nombre": "Anexión de Guanacaste",
+   "mes": 7,
+   "dia": 25,
+   "factor_volumen": 0.85
+  },
+  {
+   "nombre": "Virgen de los Ángeles",
+   "mes": 8,
+   "dia": 2,
+   "factor_volumen": 0.85
+  },
+  {
+   "nombre": "Día de la Madre",
+   "mes": 8,
+   "dia": 15,
+   "factor_volumen": 0.9
+  },
+  {
+   "nombre": "Afrocostarricense",
+   "mes": 8,
+   "dia": 31,
+   "factor_volumen": 0.85
+  },
+  {
+   "nombre": "Independencia",
+   "mes": 9,
+   "dia": 15,
+   "factor_volumen": 0.85
+  },
+  {
+   "nombre": "Abolición del Ejército",
+   "mes": 12,
+   "dia": 1,
+   "factor_volumen": 0.85
+  },
+  {
+   "nombre": "Navidad",
+   "mes": 12,
+   "dia": 25,
+   "factor_volumen": 0.5
+  }
+ ],
+ "vacaciones_escolares": {
+  "julio_dias": 14,
+  "factor_urbano": 0.88,
+  "factor_turistico": 1.3
+ },
+ "p_lluvia_mes": [
+  0.05,
+  0.04,
+  0.06,
+  0.15,
+  0.55,
+  0.65,
+  0.6,
+  0.62,
+  0.7,
+  0.75,
+  0.45,
+  0.15
+ ],
+ "eventos": [
+  {
+   "id": "EV01",
+   "nombre": "Concierto en Estadio Nacional",
+   "tipo": "concierto",
+   "p_dia": 0.0219,
+   "mult_trafico": 1.6,
+   "poi": "POI05",
+   "radio_km": 3,
+   "duracion_h": 6,
+   "hora_inicio": 16,
+   "dias_semana": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "EV02",
+   "nombre": "Partido de la Selección",
+   "tipo": "deporte",
+   "p_dia": 0.011,
+   "mult_trafico": 1.8,
+   "poi": "POI05",
+   "radio_km": 3,
+   "duracion_h": 5,
+   "hora_inicio": 15,
+   "dias_semana": [
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "EV03",
+   "nombre": "Partido en Estadio Saprissa",
+   "tipo": "deporte",
+   "p_dia": 0.0411,
+   "mult_trafico": 1.4,
+   "poi": "POI13",
+   "radio_km": 2,
+   "duracion_h": 4,
+   "hora_inicio": 16,
+   "dias_semana": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "EV04",
+   "nombre": "Partido en Estadio Morera Soto",
+   "tipo": "deporte",
+   "p_dia": 0.0411,
+   "mult_trafico": 1.4,
+   "poi": "POI14",
+   "radio_km": 2,
+   "duracion_h": 4,
+   "hora_inicio": 16,
+   "dias_semana": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "EV05",
+   "nombre": "Romería a Cartago",
+   "tipo": "religioso",
+   "p_dia": 1.0,
+   "mult_trafico": 1.8,
+   "poi": "POI12",
+   "radio_km": 15,
+   "duracion_h": 36,
+   "hora_inicio": 0,
+   "fechas_fijas": [
+    [
+     8,
+     1
+    ],
+    [
+     8,
+     2
+    ]
+   ]
+  },
+  {
+   "id": "EV06",
+   "nombre": "Fiestas de Zapote",
+   "tipo": "festival",
+   "p_dia": 1.0,
+   "mult_trafico": 1.3,
+   "poi": "POI15",
+   "radio_km": 3,
+   "duracion_h": 12,
+   "hora_inicio": 14,
+   "fechas_fijas": [
+    [
+     12,
+     26
+    ],
+    [
+     12,
+     27
+    ],
+    [
+     12,
+     28
+    ],
+    [
+     12,
+     29
+    ],
+    [
+     12,
+     30
+    ],
+    [
+     12,
+     31
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ]
+   ]
+  },
+  {
+   "id": "EV07",
+   "nombre": "Tope y Carnaval",
+   "tipo": "festival",
+   "p_dia": 1.0,
+   "mult_trafico": 1.5,
+   "poi": "POI01",
+   "radio_km": 4,
+   "duracion_h": 8,
+   "hora_inicio": 9,
+   "fechas_fijas": [
+    [
+     12,
+     26
+    ],
+    [
+     12,
+     27
+    ]
+   ]
+  },
+  {
+   "id": "EV08",
+   "nombre": "Compras de diciembre y Black Friday",
+   "tipo": "comercial",
+   "p_dia": 1.0,
+   "mult_trafico": 1.35,
+   "poi": "malls",
+   "radio_km": 3,
+   "duracion_h": 10,
+   "hora_inicio": 10,
+   "meses": [
+    12
+   ],
+   "fechas_fijas": [
+    [
+     11,
+     28
+    ]
+   ]
+  },
+  {
+   "id": "EV09",
+   "nombre": "Inicio de curso lectivo",
+   "tipo": "escolar",
+   "p_dia": 1.0,
+   "mult_trafico": 1.12,
+   "poi": "escuelas",
+   "radio_km": 5,
+   "duracion_h": 4,
+   "hora_inicio": 6,
+   "fechas_fijas": [
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     2,
+     8
+    ],
+    [
+     2,
+     9
+    ],
+    [
+     2,
+     10
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     2,
+     12
+    ],
+    [
+     2,
+     13
+    ],
+    [
+     2,
+     14
+    ]
+   ]
+  },
+  {
+   "id": "EV10",
+   "nombre": "Exodo de Semana Santa",
+   "tipo": "vacaciones",
+   "p_dia": 1.0,
+   "mult_trafico": 1.5,
+   "poi": "corredor_playas",
+   "radio_km": 0,
+   "duracion_h": 24,
+   "hora_inicio": 5,
+   "fechas_fijas": [
+    [
+     4,
+     1
+    ],
+    [
+     4,
+     2
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     4,
+     7
+    ]
+   ]
+  },
+  {
+   "id": "EV11",
+   "nombre": "Manifestacion o bloqueo vial",
+   "tipo": "social",
+   "p_dia": 0.01,
+   "mult_trafico": 1.7,
+   "poi": "cualquiera",
+   "radio_km": 5,
+   "duracion_h": 6,
+   "hora_inicio": 6
+  },
+  {
+   "id": "EV12",
+   "nombre": "Cierre por deslizamiento o inundacion",
+   "tipo": "clima",
+   "p_dia": 0.01,
+   "mult_trafico": 0.0,
+   "poi": "rutas_clave",
+   "radio_km": 0,
+   "duracion_h": 24,
+   "hora_inicio": 0,
+   "meses": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": "EV13",
+   "nombre": "Obras o cierre parcial de carril",
+   "tipo": "infraestructura",
+   "p_dia": 0.03,
+   "mult_trafico": 1.3,
+   "poi": "cualquiera",
+   "radio_km": 3,
+   "duracion_h": 8,
+   "hora_inicio": 8
+  }
+ ]
+}

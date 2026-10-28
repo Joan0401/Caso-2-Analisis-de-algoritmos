@@ -1,0 +1,489 @@
+{
+ "pois": [
+  {
+   "id": "POI01",
+   "nombre": "Centro de San José",
+   "tipo": "gobierno",
+   "canton": "San José",
+   "lat": 9.933,
+   "lon": -84.08,
+   "peso_atraccion": 1.0,
+   "nodo": "San José",
+   "aristas_acceso": [
+    "E22",
+    "E05",
+    "E01",
+    "E02"
+   ],
+   "horas_pico": [
+    7,
+    17
+   ],
+   "alias": [
+    "centro de san jose",
+    "san jose centro"
+   ]
+  },
+  {
+   "id": "POI02",
+   "nombre": "Mall San Pedro",
+   "tipo": "mall",
+   "canton": "Montes de Oca",
+   "lat": 9.935,
+   "lon": -84.053,
+   "peso_atraccion": 0.7,
+   "nodo": "Montes de Oca",
+   "aristas_acceso": [
+    "E05",
+    "E06"
+   ],
+   "horas_pico": [
+    12,
+    19
+   ],
+   "alias": [
+    "mall san pedro",
+    "san pedro mall"
+   ]
+  },
+  {
+   "id": "POI03",
+   "nombre": "Rotonda de la Hispanidad",
+   "tipo": "nodo_vial",
+   "canton": "Montes de Oca",
+   "lat": 9.936,
+   "lon": -84.054,
+   "peso_atraccion": 0.6,
+   "nodo": "Montes de Oca",
+   "aristas_acceso": [
+    "E05"
+   ],
+   "horas_pico": [
+    7,
+    17
+   ],
+   "alias": [
+    "hispanidad",
+    "rotonda hispanidad",
+    "rotonda de la hispanidad"
+   ]
+  },
+  {
+   "id": "POI04",
+   "nombre": "Universidad de Costa Rica",
+   "tipo": "universidad",
+   "canton": "Montes de Oca",
+   "lat": 9.937,
+   "lon": -84.051,
+   "peso_atraccion": 0.85,
+   "nodo": "Montes de Oca",
+   "aristas_acceso": [
+    "E05",
+    "E06"
+   ],
+   "horas_pico": [
+    7,
+    12,
+    17
+   ],
+   "alias": [
+    "ucr",
+    "universidad de costa rica",
+    "rodrigo facio"
+   ]
+  },
+  {
+   "id": "POI05",
+   "nombre": "La Sabana",
+   "tipo": "entretenimiento",
+   "canton": "San José",
+   "lat": 9.936,
+   "lon": -84.105,
+   "peso_atraccion": 0.75,
+   "nodo": "San José",
+   "aristas_acceso": [
+    "E01",
+    "E02",
+    "E22"
+   ],
+   "horas_pico": [
+    17
+   ],
+   "alias": [
+    "la sabana",
+    "sabana",
+    "estadio nacional",
+    "parque la sabana"
+   ]
+  },
+  {
+   "id": "POI06",
+   "nombre": "Multiplaza Escazú",
+   "tipo": "mall",
+   "canton": "Escazú",
+   "lat": 9.942,
+   "lon": -84.14,
+   "peso_atraccion": 0.75,
+   "nodo": "Escazú",
+   "aristas_acceso": [
+    "E02",
+    "E03"
+   ],
+   "horas_pico": [
+    12,
+    19
+   ],
+   "alias": [
+    "multiplaza",
+    "multiplaza escazu",
+    "avenida escazu"
+   ]
+  },
+  {
+   "id": "POI07",
+   "nombre": "Plaza del Sol",
+   "tipo": "mall",
+   "canton": "Curridabat",
+   "lat": 9.916,
+   "lon": -84.035,
+   "peso_atraccion": 0.55,
+   "nodo": "Curridabat",
+   "aristas_acceso": [
+    "E06",
+    "E07"
+   ],
+   "horas_pico": [
+    12,
+    19
+   ],
+   "alias": [
+    "plaza del sol",
+    "curridabat mall"
+   ]
+  },
+  {
+   "id": "POI08",
+   "nombre": "Aeropuerto Juan Santamaría",
+   "tipo": "aeropuerto",
+   "canton": "Alajuela",
+   "lat": 9.994,
+   "lon": -84.209,
+   "peso_atraccion": 0.9,
+   "nodo": "Alajuela",
+   "aristas_acceso": [
+    "E01"
+   ],
+   "horas_pico": [
+    5,
+    10,
+    20
+   ],
+   "alias": [
+    "aeropuerto juan santamaria",
+    "sjo",
+    "aeropuerto"
+   ]
+  },
+  {
+   "id": "POI09",
+   "nombre": "City Mall Alajuela",
+   "tipo": "mall",
+   "canton": "Alajuela",
+   "lat": 10.0,
+   "lon": -84.24,
+   "peso_atraccion": 0.55,
+   "nodo": "Alajuela",
+   "aristas_acceso": [
+    "E01",
+    "E10"
+   ],
+   "horas_pico": [
+    12,
+    19
+   ],
+   "alias": [
+    "city mall",
+    "city mall alajuela"
+   ]
+  },
+  {
+   "id": "POI10",
+   "nombre": "Paseo de las Flores",
+   "tipo": "mall",
+   "canton": "Heredia",
+   "lat": 9.994,
+   "lon": -84.122,
+   "peso_atraccion": 0.6,
+   "nodo": "Heredia",
+   "aristas_acceso": [
+    "E09",
+    "E10"
+   ],
+   "horas_pico": [
+    12,
+    19
+   ],
+   "alias": [
+    "paseo de las flores",
+    "paseo flores"
+   ]
+  },
+  {
+   "id": "POI11",
+   "nombre": "Universidad Nacional",
+   "tipo": "universidad",
+   "canton": "Heredia",
+   "lat": 9.998,
+   "lon": -84.113,
+   "peso_atraccion": 0.55,
+   "nodo": "Heredia",
+   "aristas_acceso": [
+    "E09"
+   ],
+   "horas_pico": [
+    7,
+    17
+   ],
+   "alias": [
+    "una",
+    "universidad nacional"
+   ]
+  },
+  {
+   "id": "POI12",
+   "nombre": "Basílica de los Ángeles",
+   "tipo": "turismo",
+   "canton": "Cartago",
+   "lat": 9.864,
+   "lon": -83.919,
+   "peso_atraccion": 0.5,
+   "nodo": "Cartago",
+   "aristas_acceso": [
+    "E08"
+   ],
+   "horas_pico": [
+    8
+   ],
+   "alias": [
+    "basilica",
+    "basilica de los angeles",
+    "romeria"
+   ]
+  },
+  {
+   "id": "POI13",
+   "nombre": "Estadio Saprissa",
+   "tipo": "entretenimiento",
+   "canton": "Tibás",
+   "lat": 9.968,
+   "lon": -84.075,
+   "peso_atraccion": 0.5,
+   "nodo": "Tibás",
+   "aristas_acceso": [
+    "E14"
+   ],
+   "horas_pico": [
+    17
+   ],
+   "alias": [
+    "saprissa",
+    "estadio saprissa"
+   ]
+  },
+  {
+   "id": "POI14",
+   "nombre": "Estadio Morera Soto",
+   "tipo": "entretenimiento",
+   "canton": "Alajuela",
+   "lat": 10.019,
+   "lon": -84.214,
+   "peso_atraccion": 0.45,
+   "nodo": "Alajuela",
+   "aristas_acceso": [
+    "E01",
+    "E10"
+   ],
+   "horas_pico": [
+    17
+   ],
+   "alias": [
+    "morera soto",
+    "estadio morera soto"
+   ]
+  },
+  {
+   "id": "POI15",
+   "nombre": "Hipódromo de Zapote",
+   "tipo": "entretenimiento",
+   "canton": "San José",
+   "lat": 9.92,
+   "lon": -84.05,
+   "peso_atraccion": 0.4,
+   "nodo": "San José",
+   "aristas_acceso": [
+    "E05",
+    "E22"
+   ],
+   "horas_pico": [
+    15
+   ],
+   "alias": [
+    "zapote",
+    "fiestas de zapote"
+   ]
+  },
+  {
+   "id": "POI16",
+   "nombre": "Terramall",
+   "tipo": "mall",
+   "canton": "Cartago",
+   "lat": 9.89,
+   "lon": -83.96,
+   "peso_atraccion": 0.55,
+   "nodo": "Cartago",
+   "aristas_acceso": [
+    "E08"
+   ],
+   "horas_pico": [
+    12,
+    19
+   ],
+   "alias": [
+    "terramall",
+    "terra mall"
+   ]
+  },
+  {
+   "id": "POI17",
+   "nombre": "TEC Cartago",
+   "tipo": "universidad",
+   "canton": "Cartago",
+   "lat": 9.857,
+   "lon": -83.912,
+   "peso_atraccion": 0.5,
+   "nodo": "Cartago",
+   "aristas_acceso": [
+    "E08"
+   ],
+   "horas_pico": [
+    7,
+    17
+   ],
+   "alias": [
+    "tec",
+    "tecnologico",
+    "instituto tecnologico de costa rica"
+   ]
+  },
+  {
+   "id": "POI18",
+   "nombre": "Hospital México",
+   "tipo": "hospital",
+   "canton": "San José",
+   "lat": 9.958,
+   "lon": -84.127,
+   "peso_atraccion": 0.65,
+   "nodo": "San José",
+   "aristas_acceso": [
+    "E01",
+    "E22"
+   ],
+   "horas_pico": [
+    7,
+    13
+   ],
+   "alias": [
+    "hospital mexico"
+   ]
+  },
+  {
+   "id": "POI19",
+   "nombre": "Aeropuerto Daniel Oduber",
+   "tipo": "aeropuerto",
+   "canton": "Liberia",
+   "lat": 10.593,
+   "lon": -85.544,
+   "peso_atraccion": 0.7,
+   "nodo": "Liberia",
+   "aristas_acceso": [
+    "E18"
+   ],
+   "horas_pico": [
+    10,
+    20
+   ],
+   "alias": [
+    "aeropuerto de liberia",
+    "lir",
+    "daniel oduber"
+   ]
+  },
+  {
+   "id": "POI20",
+   "nombre": "Puerto Caldera",
+   "tipo": "puerto",
+   "canton": "Puntarenas",
+   "lat": 9.933,
+   "lon": -84.717,
+   "peso_atraccion": 0.6,
+   "nodo": "Puntarenas",
+   "aristas_acceso": [
+    "E04"
+   ],
+   "horas_pico": [
+    8,
+    17
+   ],
+   "alias": [
+    "caldera",
+    "puerto caldera"
+   ]
+  },
+  {
+   "id": "POI21",
+   "nombre": "Playas de Jacó y Manuel Antonio",
+   "tipo": "turismo",
+   "canton": "Puntarenas",
+   "lat": 9.612,
+   "lon": -84.632,
+   "peso_atraccion": 0.65,
+   "nodo": "Puntarenas",
+   "aristas_acceso": [
+    "E04"
+   ],
+   "horas_pico": [
+    10,
+    17
+   ],
+   "alias": [
+    "jaco",
+    "manuel antonio",
+    "playas del pacifico central"
+   ]
+  },
+  {
+   "id": "POI22",
+   "nombre": "Zona Franca de Belén",
+   "tipo": "empresa",
+   "canton": "Belén",
+   "lat": 9.985,
+   "lon": -84.17,
+   "peso_atraccion": 0.7,
+   "nodo": "Heredia",
+   "aristas_acceso": [
+    "E01",
+    "E09"
+   ],
+   "horas_pico": [
+    6,
+    15,
+    17
+   ],
+   "alias": [
+    "zona franca",
+    "zona franca belen",
+    "belen"
+   ]
+  }
+ ]
+}

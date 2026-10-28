@@ -1,0 +1,39 @@
+{
+ "zonas": [
+  "Brunca / Zona Sur",
+  "Caribe",
+  "GAM",
+  "Pacífico Central",
+  "Pacífico Norte",
+  "Valle Central Occidental",
+  "Zona Norte"
+ ],
+ "canton_a_zona": {
+  "San José": "GAM",
+  "Desamparados": "GAM",
+  "Goicoechea": "GAM",
+  "Tibás": "GAM",
+  "Escazú": "GAM",
+  "Curridabat": "GAM",
+  "Santa Ana": "GAM",
+  "Montes de Oca": "GAM",
+  "Alajuela": "GAM",
+  "Cartago": "GAM",
+  "La Unión": "GAM",
+  "Paraíso": "GAM",
+  "Heredia": "GAM",
+  "Santo Domingo": "GAM",
+  "San Rafael": "GAM",
+  "Belén": "GAM",
+  "Grecia": "Valle Central Occidental",
+  "San Ramón": "Valle Central Occidental",
+  "San Carlos": "Zona Norte",
+  "Liberia": "Pacífico Norte",
+  "Santa Cruz": "Pacífico Norte",
+  "Nicoya": "Pacífico Norte",
+  "Puntarenas": "Pacífico Central",
+  "Pérez Zeledón": "Brunca / Zona Sur",
+  "Pococí": "Caribe",
+  "Limón": "Caribe"
+ }
+}

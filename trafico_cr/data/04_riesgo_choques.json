@@ -1,0 +1,70 @@
+{
+ "accidentes_anuales": 47000,
+ "muertes_sitio_anual": {
+  "2024": 505,
+  "2025": 572
+ },
+ "muertes_totales_2025": 903,
+ "muertes_por_provincia_2025": {
+  "Alajuela": 209,
+  "San José": 166,
+  "Puntarenas": 155,
+  "Guanacaste": 135,
+  "Limón": 131,
+  "Cartago": 39,
+  "Heredia": 68
+ },
+ "muertes_por_dia_2025": {
+  "lunes": 82,
+  "martes": 65,
+  "miercoles": 57,
+  "jueves": 46,
+  "viernes": 71,
+  "sabado": 101,
+  "domingo": 150
+ },
+ "p_accidente_vehiculo_dia": 6.625e-05,
+ "severidad_relativa_dia": {
+  "lunes": 1.003,
+  "martes": 0.795,
+  "miercoles": 0.698,
+  "jueves": 0.563,
+  "viernes": 0.869,
+  "sabado": 1.236,
+  "domingo": 1.836
+ },
+ "riesgo_franja": {
+  "madrugada": 1.8,
+  "pico_am": 1.0,
+  "valle": 0.8,
+  "pico_pm": 1.3,
+  "noche": 1.5
+ },
+ "riesgo_tipo_vehiculo": {
+  "automovil": 1.0,
+  "motocicleta": 4.0,
+  "carga_pesada": 1.5,
+  "bus": 0.8
+ },
+ "lluvia": {
+  "mult_riesgo": 1.4,
+  "mult_velocidad": 0.85
+ },
+ "p_choque_causa_congestion": {
+  "autopista": 0.55,
+  "ruta_nacional": 0.35,
+  "calle_cantonal": 0.15
+ },
+ "duracion_congestion_min": {
+  "mediana": 50,
+  "sigma": 0.6
+ },
+ "perdida_capacidad_choque": 0.5,
+ "velocidad_kmh": {
+  "autopista": 80,
+  "ruta_nacional": 60,
+  "urbana": 25,
+  "desviacion_relativa": 0.2,
+  "p_exceso_velocidad": 0.18
+ }
+}

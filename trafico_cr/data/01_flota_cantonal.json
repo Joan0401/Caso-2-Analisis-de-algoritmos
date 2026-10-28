@@ -1,0 +1,245 @@
+{
+ "total_flota_registrada": 3199096,
+ "total_marchamos_pagados": 1943587,
+ "factor_circulante": 0.6075,
+ "provincias": [
+  {
+   "provincia": "San José",
+   "participacion_flota": 0.33
+  },
+  {
+   "provincia": "Alajuela",
+   "participacion_flota": 0.21
+  },
+  {
+   "provincia": "Cartago",
+   "participacion_flota": 0.1
+  },
+  {
+   "provincia": "Heredia",
+   "participacion_flota": 0.1
+  },
+  {
+   "provincia": "Guanacaste",
+   "participacion_flota": 0.08
+  },
+  {
+   "provincia": "Puntarenas",
+   "participacion_flota": 0.09
+  },
+  {
+   "provincia": "Limón",
+   "participacion_flota": 0.09
+  }
+ ],
+ "cantones": [
+  {
+   "canton": "San José",
+   "provincia": "San José",
+   "zona": "GAM",
+   "vehiculos": 220000,
+   "circulantes": 133600,
+   "poblacion": 352000
+  },
+  {
+   "canton": "Desamparados",
+   "provincia": "San José",
+   "zona": "GAM",
+   "vehiculos": 130000,
+   "circulantes": 79000,
+   "poblacion": 208000
+  },
+  {
+   "canton": "Pérez Zeledón",
+   "provincia": "San José",
+   "zona": "Brunca / Zona Sur",
+   "vehiculos": 90000,
+   "circulantes": 54700,
+   "poblacion": 143000
+  },
+  {
+   "canton": "Goicoechea",
+   "provincia": "San José",
+   "zona": "GAM",
+   "vehiculos": 80000,
+   "circulantes": 48600,
+   "poblacion": 130000
+  },
+  {
+   "canton": "Tibás",
+   "provincia": "San José",
+   "zona": "GAM",
+   "vehiculos": 50000,
+   "circulantes": 30400,
+   "poblacion": 78000
+  },
+  {
+   "canton": "Escazú",
+   "provincia": "San José",
+   "zona": "GAM",
+   "vehiculos": 45000,
+   "circulantes": 27300,
+   "poblacion": 72000
+  },
+  {
+   "canton": "Curridabat",
+   "provincia": "San José",
+   "zona": "GAM",
+   "vehiculos": 45000,
+   "circulantes": 27300,
+   "poblacion": 72000
+  },
+  {
+   "canton": "Santa Ana",
+   "provincia": "San José",
+   "zona": "GAM",
+   "vehiculos": 35000,
+   "circulantes": 21300,
+   "poblacion": 58000
+  },
+  {
+   "canton": "Montes de Oca",
+   "provincia": "San José",
+   "zona": "GAM",
+   "vehiculos": 30000,
+   "circulantes": 18200,
+   "poblacion": 49000
+  },
+  {
+   "canton": "Alajuela",
+   "provincia": "Alajuela",
+   "zona": "GAM",
+   "vehiculos": 200000,
+   "circulantes": 121500,
+   "poblacion": 322000
+  },
+  {
+   "canton": "San Carlos",
+   "provincia": "Alajuela",
+   "zona": "Zona Norte",
+   "vehiculos": 125000,
+   "circulantes": 75900,
+   "poblacion": 199000
+  },
+  {
+   "canton": "San Ramón",
+   "provincia": "Alajuela",
+   "zona": "Valle Central Occidental",
+   "vehiculos": 60000,
+   "circulantes": 36400,
+   "poblacion": 93000
+  },
+  {
+   "canton": "Grecia",
+   "provincia": "Alajuela",
+   "zona": "Valle Central Occidental",
+   "vehiculos": 50000,
+   "circulantes": 30400,
+   "poblacion": 82000
+  },
+  {
+   "canton": "Cartago",
+   "provincia": "Cartago",
+   "zona": "GAM",
+   "vehiculos": 105000,
+   "circulantes": 63800,
+   "poblacion": 165000
+  },
+  {
+   "canton": "La Unión",
+   "provincia": "Cartago",
+   "zona": "GAM",
+   "vehiculos": 70000,
+   "circulantes": 42500,
+   "poblacion": 108000
+  },
+  {
+   "canton": "Paraíso",
+   "provincia": "Cartago",
+   "zona": "GAM",
+   "vehiculos": 40000,
+   "circulantes": 24300,
+   "poblacion": 66000
+  },
+  {
+   "canton": "Heredia",
+   "provincia": "Heredia",
+   "zona": "GAM",
+   "vehiculos": 85000,
+   "circulantes": 51600,
+   "poblacion": 132000
+  },
+  {
+   "canton": "Santo Domingo",
+   "provincia": "Heredia",
+   "zona": "GAM",
+   "vehiculos": 30000,
+   "circulantes": 18200,
+   "poblacion": 49000
+  },
+  {
+   "canton": "San Rafael",
+   "provincia": "Heredia",
+   "zona": "GAM",
+   "vehiculos": 30000,
+   "circulantes": 18200,
+   "poblacion": 49000
+  },
+  {
+   "canton": "Belén",
+   "provincia": "Heredia",
+   "zona": "GAM",
+   "vehiculos": 15000,
+   "circulantes": 9100,
+   "poblacion": 26000
+  },
+  {
+   "canton": "Liberia",
+   "provincia": "Guanacaste",
+   "zona": "Pacífico Norte",
+   "vehiculos": 45000,
+   "circulantes": 27300,
+   "poblacion": 70000
+  },
+  {
+   "canton": "Santa Cruz",
+   "provincia": "Guanacaste",
+   "zona": "Pacífico Norte",
+   "vehiculos": 40000,
+   "circulantes": 24300,
+   "poblacion": 60000
+  },
+  {
+   "canton": "Nicoya",
+   "provincia": "Guanacaste",
+   "zona": "Pacífico Norte",
+   "vehiculos": 35000,
+   "circulantes": 21300,
+   "poblacion": 57000
+  },
+  {
+   "canton": "Puntarenas",
+   "provincia": "Puntarenas",
+   "zona": "Pacífico Central",
+   "vehiculos": 70000,
+   "circulantes": 42500,
+   "poblacion": 115000
+  },
+  {
+   "canton": "Pococí",
+   "provincia": "Limón",
+   "zona": "Caribe",
+   "vehiculos": 95000,
+   "circulantes": 57700,
+   "poblacion": 150000
+  },
+  {
+   "canton": "Limón",
+   "provincia": "Limón",
+   "zona": "Caribe",
+   "vehiculos": 60000,
+   "circulantes": 36400,
+   "poblacion": 94000
+  }
+ ]
+}

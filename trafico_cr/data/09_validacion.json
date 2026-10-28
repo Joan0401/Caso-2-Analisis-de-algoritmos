@@ -1,0 +1,229 @@
+{
+ "tolerancia_objetivo": 0.05,
+ "puntos": [
+  {
+   "id": "V01",
+   "metrica": "flota_total",
+   "objetivo": "",
+   "valor": 3199096,
+   "peso": 2.0
+  },
+  {
+   "id": "V02",
+   "metrica": "accidentes_anuales",
+   "objetivo": "",
+   "valor": 47000,
+   "peso": 1.5
+  },
+  {
+   "id": "V03",
+   "metrica": "fraccion_viajes_pico_am",
+   "objetivo": "",
+   "valor": 0.22,
+   "peso": 1.0
+  },
+  {
+   "id": "V04",
+   "metrica": "fraccion_viajes_pico_pm",
+   "objetivo": "",
+   "valor": 0.24,
+   "peso": 1.0
+  },
+  {
+   "id": "V_lunes",
+   "metrica": "fraccion_muertes_dia",
+   "objetivo": "lunes",
+   "valor": 0.1434,
+   "peso": 0.5
+  },
+  {
+   "id": "V_martes",
+   "metrica": "fraccion_muertes_dia",
+   "objetivo": "martes",
+   "valor": 0.1136,
+   "peso": 0.5
+  },
+  {
+   "id": "V_miercoles",
+   "metrica": "fraccion_muertes_dia",
+   "objetivo": "miercoles",
+   "valor": 0.0997,
+   "peso": 0.5
+  },
+  {
+   "id": "V_jueves",
+   "metrica": "fraccion_muertes_dia",
+   "objetivo": "jueves",
+   "valor": 0.0804,
+   "peso": 0.5
+  },
+  {
+   "id": "V_viernes",
+   "metrica": "fraccion_muertes_dia",
+   "objetivo": "viernes",
+   "valor": 0.1241,
+   "peso": 0.5
+  },
+  {
+   "id": "V_sabado",
+   "metrica": "fraccion_muertes_dia",
+   "objetivo": "sabado",
+   "valor": 0.1766,
+   "peso": 0.5
+  },
+  {
+   "id": "V_domingo",
+   "metrica": "fraccion_muertes_dia",
+   "objetivo": "domingo",
+   "valor": 0.2622,
+   "peso": 0.5
+  },
+  {
+   "id": "V_E01",
+   "metrica": "tpd_arista",
+   "objetivo": "E01",
+   "valor": 120000,
+   "peso": 1.0
+  },
+  {
+   "id": "V_E02",
+   "metrica": "tpd_arista",
+   "objetivo": "E02",
+   "valor": 95000,
+   "peso": 1.0
+  },
+  {
+   "id": "V_E03",
+   "metrica": "tpd_arista",
+   "objetivo": "E03",
+   "valor": 65000,
+   "peso": 1.0
+  },
+  {
+   "id": "V_E04",
+   "metrica": "tpd_arista",
+   "objetivo": "E04",
+   "valor": 40000,
+   "peso": 1.0
+  },
+  {
+   "id": "V_E05",
+   "metrica": "tpd_arista",
+   "objetivo": "E05",
+   "valor": 135000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E06",
+   "metrica": "tpd_arista",
+   "objetivo": "E06",
+   "valor": 70000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E07",
+   "metrica": "tpd_arista",
+   "objetivo": "E07",
+   "valor": 62000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E08",
+   "metrica": "tpd_arista",
+   "objetivo": "E08",
+   "valor": 65000,
+   "peso": 1.0
+  },
+  {
+   "id": "V_E09",
+   "metrica": "tpd_arista",
+   "objetivo": "E09",
+   "valor": 75000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E10",
+   "metrica": "tpd_arista",
+   "objetivo": "E10",
+   "valor": 27000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E11",
+   "metrica": "tpd_arista",
+   "objetivo": "E11",
+   "valor": 35000,
+   "peso": 1.0
+  },
+  {
+   "id": "V_E12",
+   "metrica": "tpd_arista",
+   "objetivo": "E12",
+   "valor": 16000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E13",
+   "metrica": "tpd_arista",
+   "objetivo": "E13",
+   "valor": 50000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E14",
+   "metrica": "tpd_arista",
+   "objetivo": "E14",
+   "valor": 50000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E15",
+   "metrica": "tpd_arista",
+   "objetivo": "E15",
+   "valor": 45000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E16",
+   "metrica": "tpd_arista",
+   "objetivo": "E16",
+   "valor": 40000,
+   "peso": 1.0
+  },
+  {
+   "id": "V_E17",
+   "metrica": "tpd_arista",
+   "objetivo": "E17",
+   "valor": 18000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E18",
+   "metrica": "tpd_arista",
+   "objetivo": "E18",
+   "valor": 12000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E19",
+   "metrica": "tpd_arista",
+   "objetivo": "E19",
+   "valor": 9000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E20",
+   "metrica": "tpd_arista",
+   "objetivo": "E20",
+   "valor": 10000,
+   "peso": 0.7
+  },
+  {
+   "id": "V_E21",
+   "metrica": "tpd_arista",
+   "objetivo": "E21",
+   "valor": 4000,
+   "peso": 0.7
+  }
+ ]
+}
