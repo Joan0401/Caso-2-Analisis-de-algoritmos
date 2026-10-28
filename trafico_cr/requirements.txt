@@ -1,3 +1,0 @@
-mcp>=1.2
-pydantic>=2
-pytest>=8
